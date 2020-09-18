@@ -2,6 +2,7 @@
 
 def my_collect(array)
   array.collect do |name|
-    name.upcase.first
+    name.split(" ").first
+    name.upcase
   end
 end
