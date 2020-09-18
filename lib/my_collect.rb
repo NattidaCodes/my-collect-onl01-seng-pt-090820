@@ -9,8 +9,7 @@
 # end
 
 def my_collect(array)
-  my_collect(array) do |name|
+  array.collect do |name|
     name.upcase
   end
-  return name
 end
