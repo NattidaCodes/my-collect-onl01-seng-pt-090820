@@ -5,6 +5,5 @@ def my_collect(array)
   while new_array << array.length
     yield(array[counter])
     array.upcase
-    end
   end
 end
