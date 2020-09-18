@@ -5,6 +5,6 @@ def my_collect(array)
     my_collect(students) do |student|
            student.split(" ").first
     name
-    
+
   end
 end
